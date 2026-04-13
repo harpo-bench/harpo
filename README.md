@@ -3,7 +3,7 @@
 
   <p>
     <a href="https://github.com/harpo-bench/harpo" target="_blank">
-      <img alt="Code" src="https://img.shields.io/badge/Code-Anonymous%20Repository-blue">
+      <img alt="Code" src="https://img.shields.io/badge/Code-harpo-blue">
     </a>
     <a href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank">
       <img alt="arXiv" src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-B31B1B">

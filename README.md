@@ -335,7 +335,7 @@ harpo explain context.txt response.txt --output explanation.json
 ## Citation
 
 ```bibtex
-@inproceedings{raj2025harpo,
+@inproceedings{raj2026harpo,
   title     = {HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recommendation},
   author    = {Raj, Subham and Jha, Aman Vaibhav and Anand, Mayank and Saha, Sriparna},
   booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},

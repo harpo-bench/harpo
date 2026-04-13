@@ -1,0 +1,40 @@
+# HARPO: Hierarchical Agentic Reasoning with Preference Optimization
+# Requirements for ACL 2025 Submission
+
+# Core ML
+torch
+transformers
+accelerate
+datasets
+tokenizers
+
+# Training
+tqdm
+numpy
+scipy
+
+# Evaluation
+nltk
+rouge-score
+
+# Data Processing
+openai
+requests
+
+# APIs & CLI
+click>=8.0.0
+fastapi>=0.95.0
+uvicorn>=0.21.0
+pydantic>=2.0.0
+
+# Utilities
+pyyaml
+
+# Optional: Flash Attention 2 (for 2-3x speedup)
+# Requires CUDA and specific installation
+# pip install flash-attn --no-build-isolation
+
+# Optional: For development
+# pytest>=7.0.0
+# black>=23.0.0
+# isort>=5.12.0

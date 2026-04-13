@@ -1,0 +1,1 @@
+Python is the most popular language for AI development due to libraries like PyTorch, TensorFlow, and scikit-learn. You should also consider GPU acceleration with CUDA.

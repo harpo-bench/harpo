@@ -1,0 +1,14 @@
+{
+  "comparison_pairs": [
+    {
+      "context": "User: What's a good sci-fi movie?",
+      "response_a": "Inception.",
+      "response_b": "I recommend Inception - it's a mind-bending thriller with stunning visuals and an innovative plot about dreams within dreams. The ensemble cast is excellent and the soundtrack is iconic."
+    },
+    {
+      "context": "User: Tell me about Italian cuisine",
+      "response_a": "Italy has good food.",
+      "response_b": "Italian cuisine features fresh pasta, quality olive oil, regional specialties like risotto from Milan and seafood from coastal areas. Traditional recipes vary by region and emphasize local ingredients."
+    }
+  ]
+}

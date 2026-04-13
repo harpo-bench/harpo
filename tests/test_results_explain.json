@@ -1,0 +1,14 @@
+{
+  "reasoning_trace": [
+    "Response is highly relevant to the question (relevance=1.000)",
+    "Response provides comprehensive information (diversity=0.800)"
+  ],
+  "confidence_signals": {
+    "relevance": 1.0,
+    "diversity": 0.8,
+    "satisfaction": 0.5,
+    "engagement": 0.7,
+    "confidence": 0.75
+  },
+  "weak_signals": []
+}

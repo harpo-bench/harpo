@@ -1,0 +1,16 @@
+{
+  "outputs": [
+    {
+      "context": "User: What kind of movies do you recommend for someone who loves sci-fi and action?",
+      "response": "I'd recommend Inception - it's a mind-bending sci-fi thriller with stunning action sequences and visual effects."
+    },
+    {
+      "context": "User: I'm interested in Italian food. What dishes should I try?",
+      "response": "Italian cuisine is diverse. You should try pasta carbonara, risotto, and pizza. Each region has its own specialties."
+    },
+    {
+      "context": "User: Can you help me choose a laptop for programming?",
+      "response": "For programming, consider these factors: CPUs like Intel i7 or AMD Ryzen, at least 16GB RAM, and SSD storage."
+    }
+  ]
+}

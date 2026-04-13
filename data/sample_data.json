@@ -1,0 +1,65 @@
+{
+  "sft_examples": [
+    {
+      "input": "<|domain:movies|>\n\nUser: I'm looking for a good comedy movie to watch tonight",
+      "output": "<|think|>extract_context, retrieve_preferences, search_candidates, rank_options<|/think|>\nI'd recommend \"The Grand Budapest Hotel\" (2014) - it's a visually stunning comedy with Wes Anderson's signature quirky humor. Ralph Fiennes is brilliant as the eccentric concierge. It's fast-paced, witty, and perfect for an evening watch!",
+      "vtos": ["extract_context", "retrieve_preferences", "search_candidates", "rank_options"],
+      "domain": "movies",
+      "conversation_id": "sample_001",
+      "ground_truth_item": "The Grand Budapest Hotel",
+      "utterance_type": "recommend"
+    },
+    {
+      "input": "<|domain:movies|>\n\nUser: I'm in the mood for something scary\nAssistant: What kind of horror do you prefer? Supernatural, psychological, or slasher?\nUser: Psychological - something that will really mess with my mind",
+      "output": "<|think|>analyze_sentiment, identify_constraints, search_candidates, explain_choice<|/think|>\nFor psychological horror that will truly unsettle you, I highly recommend \"Hereditary\" (2018). It's a slow-burn masterpiece that builds dread through family trauma and grief, leading to one of the most disturbing third acts in recent horror. Toni Collette's performance is haunting. Fair warning - it stays with you!",
+      "vtos": ["analyze_sentiment", "identify_constraints", "search_candidates", "explain_choice"],
+      "domain": "movies",
+      "conversation_id": "sample_002",
+      "ground_truth_item": "Hereditary",
+      "utterance_type": "recommend"
+    },
+    {
+      "input": "<|domain:books|>\n\nUser: Can you recommend a science fiction book? I loved Dune",
+      "output": "<|think|>extract_entities, retrieve_preferences, search_candidates, compare_options<|/think|>\nSince you loved Dune, you might enjoy \"Hyperion\" by Dan Simmons. Like Dune, it features rich world-building, complex politics, and philosophical depth. It's structured as interconnected stories (like Canterbury Tales in space) and explores themes of time, religion, and human nature. The sequel \"Fall of Hyperion\" completes the story beautifully.",
+      "vtos": ["extract_entities", "retrieve_preferences", "search_candidates", "compare_options"],
+      "domain": "books",
+      "conversation_id": "sample_003",
+      "ground_truth_item": "Hyperion",
+      "utterance_type": "recommend"
+    }
+  ],
+  "preference_examples": [
+    {
+      "context": "<|domain:movies|>\n\nUser: I want something funny to watch with my family",
+      "chosen": "<|think|>extract_context, identify_constraints, search_candidates<|/think|>\nFor family-friendly comedy, I'd recommend \"Paddington 2\" (2017). It's heartwarming, genuinely funny for all ages, and has a wonderful message about kindness. Hugh Grant is hilarious as the villain. It's one of those rare movies that adults enjoy just as much as kids!",
+      "rejected": "There are many comedy movies. You could search for family comedies on streaming services.",
+      "chosen_vtos": ["extract_context", "identify_constraints", "search_candidates"],
+      "rejected_vtos": ["search_candidates"],
+      "hierarchical_rewards": {
+        "relevance": {"chosen": 0.95, "rejected": 0.2},
+        "diversity": {"chosen": 0.8, "rejected": 0.3},
+        "user_satisfaction": {"chosen": 0.9, "rejected": 0.25},
+        "engagement": {"chosen": 0.85, "rejected": 0.3}
+      },
+      "reward_margin": 0.65,
+      "conversation_id": "pref_001",
+      "ground_truth_movie": "Paddington 2"
+    },
+    {
+      "context": "<|domain:movies|>\n\nUser: I need a movie for date night - something romantic but not cheesy",
+      "chosen": "<|think|>analyze_sentiment, extract_context, search_candidates, explain_choice<|/think|>\n\"Before Sunset\" (2004) is perfect for this - it's a beautifully naturalistic romance where two people reconnect years after a chance encounter. The dialogue is witty and real, the chemistry is undeniable, and it treats love with maturity rather than clichés. It's intimate without being saccharine.",
+      "rejected": "<|think|>search_candidates<|/think|>\nYou could try \"The Notebook\" - it's a popular romantic movie.",
+      "chosen_vtos": ["analyze_sentiment", "extract_context", "search_candidates", "explain_choice"],
+      "rejected_vtos": ["search_candidates"],
+      "hierarchical_rewards": {
+        "relevance": {"chosen": 0.9, "rejected": 0.4},
+        "diversity": {"chosen": 0.85, "rejected": 0.5},
+        "user_satisfaction": {"chosen": 0.88, "rejected": 0.45},
+        "engagement": {"chosen": 0.9, "rejected": 0.4}
+      },
+      "reward_margin": 0.45,
+      "conversation_id": "pref_002",
+      "ground_truth_movie": "Before Sunset"
+    }
+  ]
+}

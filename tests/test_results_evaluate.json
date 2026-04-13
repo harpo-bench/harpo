@@ -1,0 +1,23 @@
+[
+  {
+    "relevance": 0.8600000000000001,
+    "diversity": 0.6,
+    "satisfaction": 0.55,
+    "engagement": 0.7,
+    "confidence": 0.732
+  },
+  {
+    "relevance": 0.8799999999999999,
+    "diversity": 0.6,
+    "satisfaction": 0.5,
+    "engagement": 0.7,
+    "confidence": 0.736
+  },
+  {
+    "relevance": 0.845,
+    "diversity": 0.6,
+    "satisfaction": 0.5,
+    "engagement": 0.7,
+    "confidence": 0.738
+  }
+]

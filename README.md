@@ -40,7 +40,7 @@
 
 <br/>
 
-This repository contains the official implementation of **HARPO** (*Hierarchical Agentic Reasoning with Preference Optimization*), an agentic framework for conversational recommender systems that explicitly optimizes for user-aligned recommendation quality. Accepted at **ACL 2025 (Main)**.
+This repository contains the official implementation of **HARPO** (*Hierarchical Agentic Reasoning with Preference Optimization*), an agentic framework for conversational recommender systems that explicitly optimizes for user-aligned recommendation quality. Accepted at **ACL 2026 (Main)**.
 
 ---
 

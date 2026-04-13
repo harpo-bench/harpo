@@ -146,7 +146,7 @@ harpo/
 ## Installation
 
 ```bash
-git clone https://anonymous.4open.science/r/HARPO-D881
+git clone https://github.com/harpo-bench/harpo.git
 cd harpo
 
 conda create -n harpo python=3.10

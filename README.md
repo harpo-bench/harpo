@@ -18,11 +18,11 @@
   <table>
     <tr>
       <td align="center" style="padding: 0 16px;">
-        <strong>Subham Raj</strong><sup>*</sup><br/>
+        <strong>Subham Raj</strong><br/>
         IIT Patna
       </td>
       <td align="center" style="padding: 0 16px;">
-        <strong>Aman Vaibhav Jha</strong><sup>*</sup><br/>
+        <strong>Aman Vaibhav Jha</strong><br/>
         IIT Patna
       </td>
       <td align="center" style="padding: 0 16px;">
@@ -36,7 +36,6 @@
     </tr>
   </table>
 
-  <p><sup>*</sup>Equal contribution.</p>
 </div>
 
 <br/>

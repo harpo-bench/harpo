@@ -5,7 +5,7 @@
     <a href="https://harpo-bench.github.io/" target="_blank">
       <img alt="Website" src="https://img.shields.io/badge/Website-Project Page-blue">
     </a>
-    <a href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank">
+    <a href="https://arxiv.org/abs/2604.10048" target="_blank">
       <img alt="arXiv" src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-B31B1B">
     </a>
     <!-- <a href="https://aclanthology.org/" target="_blank">

@@ -6,7 +6,7 @@
       <img alt="Website" src="https://img.shields.io/badge/Website-Project Page-blue">
     </a>
     <a href="https://arxiv.org/abs/2604.10048" target="_blank">
-      <img alt="arXiv" src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-B31B1B">
+      <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2604.10048-B31B1B">
     </a>
     <!-- <a href="https://aclanthology.org/" target="_blank">
       <img alt="ACL 2025" src="https://img.shields.io/badge/ACL-2025%20Main-green">
